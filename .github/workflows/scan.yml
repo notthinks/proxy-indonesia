@@ -2,7 +2,7 @@ name: Auto-Scan Proxy Indonesia
 
 on:
   schedule:
-    - cron: '17 */6 * * *'   # setiap 6 jam
+    - cron: '*/30 * * * *'   # setiap 30 menit
   workflow_dispatch:          # manual trigger dari tab Actions
 
 permissions:

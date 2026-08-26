@@ -48,6 +48,6 @@ Hanya yang lolos **keduanya** yang masuk. No gatekeeping, semua di-verifikasi hi
 
 ## 📅 Auto-scan
 
-GitHub Actions `.github/workflows/scan.yml` jalan setiap 6 jam (dan manual via `workflow_dispatch`) — auto scrape, auto verify, auto commit hasil terbaru ke `indonesia_proxies.txt`.
+GitHub Actions `.github/workflows/scan.yml` jalan **setiap 30 menit** (dan manual via `workflow_dispatch`) — auto scrape, auto verify, auto commit hasil terbaru ke `indonesia_proxies.txt`.
 
 > ⚠️ Proxy publik itu **berumur pendek** — selalu pakai versi terbaru dari `indonesia_proxies.txt`.
