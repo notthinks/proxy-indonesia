@@ -1,0 +1,14 @@
+{
+  "note": "Provider sumber proxy. Tiap entry: name, url, scheme(http/socks/socks5), format. Tambah bebas.",
+  "providers": [
+    {"name": "thespeedx_http", "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "proxifly_all", "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt", "scheme": "http", "format": "scheme://ip:port"},
+    {"name": "shiftytr", "url": "https://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "vakhov_fresh", "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/proxylist.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "clarketm", "url": "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "monosans_http", "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "hookzof_socks", "url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "roosterkid_https", "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt", "scheme": "http", "format": "ip:port"},
+    {"name": "proxynova_id", "url": "https://www.proxynova.com/proxy-server-list/country-id/", "scheme": "http", "format": "html_js_obfuscated"}
+  ]
+}

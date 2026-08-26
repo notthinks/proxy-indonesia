@@ -1,0 +1,9 @@
+# hasil runtime
+results.json
+proxies.json
+*.log
+geo_run.log
+
+# python
+__pycache__/
+*.pyc
